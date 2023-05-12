@@ -1,0 +1,106 @@
+
+h1 {
+	position: relative;
+	color: #93207D;
+  font-family: sans-serif;
+	text-align: right;
+  font-size: 40px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  padding-top: 5px;
+}
+
+body {
+  background-color: #A6D044;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #CCDDAB;
+  height: 552px;
+  width: 75%;
+}
+
+.container1 {
+  background-image: url(images/Smart-02.png); 
+  background-repeat: no-repeat;
+  height: 512px;
+  width: 322px;
+  position: relative;
+  top: 20px;
+}
+
+.container2 {
+  background-image: url(images/Smart-02.png); 
+  background-repeat: no-repeat;
+  height: 512px;
+  width: 322px;
+  position: relative;
+  top: 20px;
+}
+
+.container3 {
+  background-image: url(images/Smart-02.png); 
+  background-repeat: no-repeat;
+  height: 512px;
+  width: 322px;
+  position: relative;
+  top: 20px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 80px;
+}
+
+a {
+  position: relative;
+  margin-top: 10px;
+  border-radius: 30px;
+  width: 130px;
+  height: 150px;
+  background-color: #088CAA;
+  text-decoration: none;
+  color: #F48C33;
+}
+
+a img {
+  width: 80px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+a h2 {
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background-color: #F48C33;
+  color: white;
+}
+
+.buttons {
+  opacity: 0.5;
+}
+
+.buttons:hover {
+  opacity: 1;
+}
