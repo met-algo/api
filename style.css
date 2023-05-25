@@ -31,6 +31,7 @@ body {
   background-color: #CCDDAB;
   height: 552px;
   width: 75%;
+  float: left;
 }
 
 .container1 {
@@ -69,7 +70,7 @@ body {
   top: 80px;
 }
 
-a {
+.app {
   position: relative;
   margin-top: 10px;
   border-radius: 30px;
@@ -80,7 +81,7 @@ a {
   color: #F48C33;
 }
 
-a img {
+.icon {
   width: 80px;
   padding-left: 25px;
   padding-top: 10px;
@@ -92,7 +93,7 @@ a h2 {
   font-family: sans-serif;
 }
 
-a:hover {
+.app:hover {
   background-color: #F48C33;
   color: white;
 }
@@ -103,4 +104,16 @@ a:hover {
 
 .buttons:hover {
   opacity: 1;
+}
+
+.container4 {
+  width: 20%;
+  float: right;
+  padding-left: 5px;
+}
+
+.tascs {
+  text-decoration: none;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
